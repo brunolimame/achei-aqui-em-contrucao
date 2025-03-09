@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+  
+# Bloqueia todos os bots de indexarem o site enquanto está em construção.
+# Remova ou edite este arquivo quando o site estiver pronto.
