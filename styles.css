@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #3e4095;
+    background-color: #2e307a;
     color: white;
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ body {
 header {
     text-align: center;
     padding: 20px 10px;
-    background-color: #2e307a;
+    background-color: #3E4095;
 }
 
 .logo {
@@ -47,7 +47,15 @@ main {
 .category {
     margin-bottom: 40px;
 }
-
+.category h2{
+    display: grid;
+    gap: 8px;
+    grid-template-columns: 30px auto;
+}
+.category h2 i {
+    color: #FFD700;
+    font-size: 1.5rem;
+}
 .listings {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -91,7 +99,7 @@ i {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #2e307a;
+    background-color: #3E4095;
     font-size: 0.9rem;
 }
 
